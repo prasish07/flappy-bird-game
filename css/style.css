@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#canvas {
+  background-image: url(../assets/flappybirdbg.png);
+  border: 2px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-decoration: underline;
+  font-size: 24px;
+}
