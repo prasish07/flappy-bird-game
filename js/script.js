@@ -55,7 +55,7 @@ const start = () => {
 
   // Drawing the bird
   birdImg = new Image();
-  birdImg.src = "../assets/flappybird.png";
+  birdImg.src = "./flappybird.png";
   birdImg.onload = () => {
     context.drawImage(birdImg, bird.x, bird.y, bird.width, bird.height);
   };
