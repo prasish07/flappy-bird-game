@@ -45,7 +45,7 @@ let gameOver = false;
 let gameOverImg;
 
 gameOverImg = new Image();
-gameOverImg.src = "../assets/gameover.png";
+gameOverImg.src = "assets/gameover.png";
 
 const start = () => {
   canvas = document.getElementById("canvas");
@@ -61,10 +61,10 @@ const start = () => {
   };
 
   topPipeImg = new Image();
-  topPipeImg.src = "../assets/toppipe.png";
+  topPipeImg.src = "assets/toppipe.png";
 
   bottomPipeImg = new Image();
-  bottomPipeImg.src = "../assets/bottompipe.png";
+  bottomPipeImg.src = "assets/bottompipe.png";
 
   requestAnimationFrame(update);
   setInterval(placePipes, pipesTimes);
