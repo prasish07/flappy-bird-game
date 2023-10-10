@@ -1,3 +1,3 @@
 # flappy-bird-game
 
-Live link: https://prasish-flappy-bird.netlify.app/
+Live link: https://prasish07.github.io/flappy-bird-game/
