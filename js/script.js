@@ -17,6 +17,7 @@ let birdX = canvasWidth / 8;
 let birdY = canvasHeight / 2;
 let birdImg;
 
+// bird object
 let bird = {
   x: birdX,
   y: birdY,
@@ -35,7 +36,7 @@ let topPipeImg;
 let bottomPipeImg;
 
 // physics in the game
-// Here speed in which the pipe moving left
+// speed with which the tree move from right to left
 let velocityX = -1.5;
 let velocityY = 0;
 let gravity = 0.2;
@@ -163,6 +164,7 @@ function detectCollision(a, b) {
     a.y < b.y + b.height &&
     a.y + a.height > b.y
   ) {
+    console.log(a, b);
     return true;
   }
   return false;
